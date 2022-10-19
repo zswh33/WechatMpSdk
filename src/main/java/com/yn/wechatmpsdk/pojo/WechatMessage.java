@@ -75,4 +75,9 @@ public class WechatMessage {
     @XStreamAlias("EventKey")
     private String EventKey;
 
+
+    //加密
+    @XStreamAlias("Encrypt")
+    private String Encrypt;
+
 }
