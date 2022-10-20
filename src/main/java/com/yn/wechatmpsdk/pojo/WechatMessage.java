@@ -16,8 +16,10 @@ public class WechatMessage {
     private String fromUserName;
     @XStreamAlias("CreateTime")
     private String createTime;
+    @XStreamAlias("MsgID")
+    private String MsgId;
     @XStreamAlias("MsgId")
-    private String msgId;
+    private String MsgID;
     @XStreamAlias("MsgDataId")
     private String msgDataId;
     @XStreamAlias("Idx")

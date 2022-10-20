@@ -10,4 +10,5 @@ class WechatMpSdkApplicationTests {
     void contextLoads() {
     }
 
+
 }
